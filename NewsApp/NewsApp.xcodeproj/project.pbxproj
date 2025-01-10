@@ -10,22 +10,9 @@
 		FC4E946D2D317CDB00FB9E44 /* NewsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		FC4E947F2D317CDC00FB9E44 /* Exceptions for "NewsApp" folder in "NewsApp" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Resources/Info.plist,
-			);
-			target = FC4E946C2D317CDB00FB9E44 /* NewsApp */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		FC4E946F2D317CDB00FB9E44 /* NewsApp */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				FC4E947F2D317CDC00FB9E44 /* Exceptions for "NewsApp" folder in "NewsApp" target */,
-			);
 			path = NewsApp;
 			sourceTree = "<group>";
 		};
