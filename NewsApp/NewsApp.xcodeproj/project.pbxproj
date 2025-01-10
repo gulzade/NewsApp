@@ -78,8 +78,6 @@
 			);
 			name = NewsApp;
 			packageProductDependencies = (
-				FC4E94862D318CB600FB9E44 /* SnapKit */,
-				FC4E94882D318CB600FB9E44 /* SnapKit-Dynamic */,
 			);
 			productName = NewsApp;
 			productReference = FC4E946D2D317CDB00FB9E44 /* NewsApp.app */;
@@ -110,7 +108,6 @@
 			mainGroup = FC4E94642D317CDB00FB9E44;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				FC4E94852D318CB600FB9E44 /* XCRemoteSwiftPackageReference "SnapKit" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = FC4E946E2D317CDB00FB9E44 /* Products */;
@@ -350,30 +347,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		FC4E94852D318CB600FB9E44 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/SnapKit/SnapKit";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 5.7.1;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		FC4E94862D318CB600FB9E44 /* SnapKit */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = FC4E94852D318CB600FB9E44 /* XCRemoteSwiftPackageReference "SnapKit" */;
-			productName = SnapKit;
-		};
-		FC4E94882D318CB600FB9E44 /* SnapKit-Dynamic */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = FC4E94852D318CB600FB9E44 /* XCRemoteSwiftPackageReference "SnapKit" */;
-			productName = "SnapKit-Dynamic";
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FC4E94652D317CDB00FB9E44 /* Project object */;
 }
